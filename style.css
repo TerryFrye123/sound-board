@@ -5,7 +5,9 @@
 }
 
 body {
-	background-color: rgb(161, 100, 223);
+	background: url('https://images.unsplash.com/photo-1453738773917-9c3eff1db985?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'Poppins', sans-serif;
 	display: flex;
 	flex-wrap: wrap;
@@ -14,7 +16,7 @@ body {
 	text-align: center;
 	height: 100vh;
 	overflow: hidden;
-	margin: 0;
+	padding: 10px;
 }
 
 .btn {
